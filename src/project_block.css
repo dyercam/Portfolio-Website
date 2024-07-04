@@ -1,0 +1,104 @@
+.projectTile {
+    border: 2px red soli;
+
+    
+    width: 800px;
+    max-width: 80vw;
+    min-width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: #024046;
+    border-radius: 0px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 2px 1px #011a1d93;
+
+    transition: border .2s ease-out;
+
+}
+
+
+
+.projectTile:hover{
+    background-color: #024046;
+    border-color: #026169;
+    border-width: 5px;
+    border-style: solid;
+    
+    
+}
+
+.projectTile:not(:hover){
+    border-width: 2px;
+}
+
+.title{
+    border: 2px green soli;
+    padding: 5px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    
+}
+
+.information{
+    border: 5px blue soli;
+
+    display: flex;
+    height: 100%;
+}
+
+.col1{
+    border: 2px white soli;
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 0;
+    flex: 1.5;
+}
+
+.col2{
+ border: 2px orange soli;
+
+ box-sizing: border-box;
+ margin: 15px;
+
+flex:1;
+}
+
+.linksOuter{
+    display: flex;
+    
+}
+.linksInner{
+    border: 2px pink soli;
+
+    padding: 40px;
+    flex:1;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: #B87333;
+}
+
+.imageCSS{
+    max-width: 350px;
+    border: 2px maroon soli;
+}
+.imageHolder{
+    border: 2px yellow soli;
+    flex: 1;
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.desc{
+    line-height: 25px;
+    text-align: left;
+}
